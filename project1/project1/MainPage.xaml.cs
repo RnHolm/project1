@@ -14,5 +14,21 @@ namespace project1
         {
             InitializeComponent();
         }
+        
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+
+        }
+        //this was from the tutorial and relates to the handling of clicking a button
+        //when the event is used, it adds 1 to the counter variable
+        int count = 0;
+        void Handle_Clicked(object sender, System.EventArgs e)
+        {
+            count++;
+            ((Button)sender).Text = $"You clicked {count} times.";
+
+
+        }
     }
+    
 }
