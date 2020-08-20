@@ -20,6 +20,10 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+        <Frame BackgroundColor="Black" Padding="24" CornerRadius="0">
+            <Label Text="Lets try making an app that tracks all the places that i have applied to" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+
+        </Frame>
         <Button Text="Click Me" Clicked="Handle_Clicked" />
     </StackLayout>
 
